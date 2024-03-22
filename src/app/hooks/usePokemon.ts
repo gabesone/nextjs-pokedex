@@ -1,5 +1,5 @@
 import useSWR from "swr";
-import * as PokemonApi from "@/api/pokemon-api";
+import * as PokemonApi from "@/app/api/pokemon-api";
 import { NextResponse } from "next/server";
 import { isNotFoundError } from "next/dist/client/components/not-found";
 

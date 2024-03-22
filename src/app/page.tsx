@@ -4,7 +4,7 @@ import PokemonEntry from "@/components/PokemonEntry";
 import Link from "next/link";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
 import useSWR from "swr";
-import * as PokemonApi from "@/api/pokemon-api";
+import * as PokemonApi from "@/app/api/pokemon-api";
 import { Button, Col, Row, Spinner } from "react-bootstrap";
 
 export default function Home() {

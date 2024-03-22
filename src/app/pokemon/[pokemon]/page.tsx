@@ -10,7 +10,7 @@ import { Button, Form, Spinner } from "react-bootstrap";
 import Image from "next/image";
 import usePokemon from "@/app/hooks/usePokemon";
 import { FormEvent } from "react";
-import * as PokemonApi from "@/api/pokemon-api";
+import * as PokemonApi from "@/app/api/pokemon-api";
 
 export default function PokemonDetailsPage() {
   const router = useRouter();
